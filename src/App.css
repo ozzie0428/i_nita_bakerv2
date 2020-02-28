@@ -1,0 +1,86 @@
+.App {
+  /* text-align: center; */
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+ 
+.recipes-container{
+  width: 26.6%;
+  height: fit-content;
+  border: 14px solid;
+  margin-bottom: 2%;
+  border-image: url(https://static.onecms.io/wp-content/uploads/sites/12/2020/01/food-fruits-vegetables-AdobeStock_188557266-2000.jpeg) 50 round;
+}
+
+.recipes-container h2{
+  padding-left: 21%;
+}
+
+.recipes-container h1{
+  padding-left: 13%;
+}
+
+.recipe-img{
+  max-width: 25px;
+  height: auto;
+  padding-left: 5%;
+}
+
+.single-recipes-img{
+  padding-left: 30%;
+ 
+}
+
+.single-recipes-container h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  display: grid;
+  justify-content: center;
+}
+
+/* .home-container{
+  background-image: url(https://i.pinimg.com/736x/53/2e/23/532e23c344e1214f28d59f640ceb58b1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.barberParent{
+  background-image: url(https://i.pinimg.com/736x/53/2e/23/532e23c344e1214f28d59f640ceb58b1.jpg);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: contain;
+}
+
+.reviewParent{
+  background-image: url(https://i.pinimg.com/736x/53/2e/23/532e23c344e1214f28d59f640ceb58b1.jpg);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: contain;
+} */
+
+.shoppingList-container{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  width: 22.3rem;
+    padding-left: 9%
+}
+
+.form-row align-items-center{
+  padding-left: 30%;
+padding-top: 2%
+}
+
+.card-title{
+  display: flex;
+  justify-content: center;
+}

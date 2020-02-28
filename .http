@@ -1,0 +1,10 @@
+POST http://localhost:5000/api/recipes
+Content-Type: "application/json"
+
+{
+    "name": "godzilla"
+}
+
+# http://localhost:5000/api/recipes/
+
+
