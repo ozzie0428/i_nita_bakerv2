@@ -13,6 +13,10 @@ app.use(express.json());
 app.use(router);
 app.use(cors())
 app.use("/api", routes);
+
+app.use(express.static(__dirname + '/build/'));
+app.get('*', (req,res) => res.sendFile(__dirname + '/build/index.html'))
+
 const port = process.env.PORT || 5000;
 const mongodb = process.env.NODE_ENV === "production" ? process.env.MONGODB_URI:"mongodb://localhost/shoppinglist"
 mongoose
